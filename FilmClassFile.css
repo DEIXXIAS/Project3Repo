@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/301/473/large_2x/black-abstract-background-with-35mmgraphic-film-free-photo.jpg);
+}
+
+.filmINFO{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+}
+
+
+h1{
+    padding: 50px;
+    padding-right: 50px;
+    background-color:  rgb(56, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#threePhotos{
+    display: flex;
+    position: sticky;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex-flow:wrap;
+    justify-content: space-between;
+}
+
+
+#camera{
+    display: grid;
+    grid-template: 
+    [row1-start] "main main aside" [row1-end];
+    grid-area: main;
+
+    color: aliceblue;
+    margin-right: 600px;
+    border: 5px solid rgb(78, 0, 16);
+}
+
+.developingFilm{
+    display: flexbox;
+    position: sticky;
+    flex-wrap: column;
+    height: 1px;
+}
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+
+#photos{
+    color: aliceblue;
+    padding: 20px;
+    background-color: rgb(70, 8, 8);
+    font-size: xx-large;
+}
+
+#twoPhotos{
+   display: flexbox;
+   flex-flow: wrap;
+   align-items: center;
+   padding-left: 150px;
+   max-width: 15em;
+   max-height: 25em;
+}
+
+.inverse{
+    text-wrap: pretty;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(253, 253, 253);
+}
